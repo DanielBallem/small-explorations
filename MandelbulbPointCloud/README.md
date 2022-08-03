@@ -62,7 +62,7 @@ Fortunately for me, there is a niche community that goes wild for fractals. The 
 Towards the bottom of the page, it might be a little difficult to understand what exactly is being done to calculate whether a point is within the set. I'll do my best to explain it.
 
 Equation for a mandelbulb
-`z -> z^n + c`
+`z -> z^n + c` (This equation is the same for the mandelbrot and mandelbulb set. Only difference is that Z and C have an extra dimention. [X,Y] -> [X,Y,Z])
 
 `c` is the cartesian coordinate of the given point we want to check. In our point cloud, that's going to be our `PVector(i, j, k)` converted to a cartesian coordinate.
 It's also important that we normalize the points between -1 and 1 for the sake of the calculations. You can find how I implemented it in the source code.
