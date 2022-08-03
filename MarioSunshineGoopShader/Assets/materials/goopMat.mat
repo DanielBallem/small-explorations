@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: goopMat
-  m_Shader: {fileID: -6465566751694194690, guid: 7d849a03f49f5694da5e17ac08e395fb,
+  m_Shader: {fileID: -6465566751694194690, guid: 256b40abbf56a8548808a308b96a5a7c,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -35,7 +35,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AlphaTexture:
-        m_Texture: {fileID: 2800000, guid: 9505e06199a0ff546ac88cfbb25d1b28, type: 3}
+        m_Texture: {fileID: 2800000, guid: bb5f766ac9b550e44be5e757457e62c0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -63,11 +63,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GoopTexture:
-        m_Texture: {fileID: 2800000, guid: 348b3ec976d643c4dad353bfd4f5196f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 272db52c04ce6f14f927d35c3603592e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: bb5f766ac9b550e44be5e757457e62c0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
